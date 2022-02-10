@@ -1,0 +1,99 @@
+{
+	"data": [{
+		"type": "navbar-item",
+		"id": "5",
+		"attributes": {
+			"label": "CDN assets",
+			"url": "/cdn_assets.php",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/cdn_assets.php"
+				]
+			}
+		}
+	}, {
+		"type": "navbar-item",
+		"id": "1",
+		"attributes": {
+			"label": "PHP info",
+			"url": "/phpinfo.php",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/phpinfo.php"
+				]
+			}
+		}
+	}, {
+		"type": "navbar-item",
+		"id": "2",
+		"attributes": {
+			"label": "APC info",
+			"url": "/apcinfo.php",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/apcinfo.php"
+				]
+			}
+		}
+	}, {
+		"type": "navbar-item",
+		"id": "6",
+		"attributes": {
+			"label": "Session info",
+			"url": "/sessioninfo.php",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/sessioninfo.php"
+				]
+			}
+		}
+	}, {
+		"type": "navbar-item",
+		"id": "3",
+		"attributes": {
+			"label": "Apache status",
+			"url": "/server-status",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/server-status"
+				]
+			}
+		}
+	}, {
+		"type": "navbar-item",
+		"id": "4",
+		"attributes": {
+			"label": "PHP-FPM status",
+			"url": "/status?full",
+			"condition": {
+				"function": [
+					"jdeathe\\PhpHelloWorld\\Collections\\NavigationBar",
+					"visible"
+				],
+				"parameter": [
+					"/status?full"
+				]
+			}
+		}
+	}]
+}

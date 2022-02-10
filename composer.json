@@ -1,0 +1,17 @@
+{
+	"name": "jdeathe/php-hello-world",
+	"description": "PHP \"Hello, world!\"",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "James Deathe",
+			"email": "james.deathe@gmail.com"
+		}
+	],
+	"require": {
+		"php": "^5.3",
+		"ext-apc": "*",
+		"ext-memcached": "*"
+	}
+}

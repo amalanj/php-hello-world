@@ -1,0 +1,10 @@
+.env
+.env.example
+.git
+.gitignore
+composer.json
+LICENSE
+README-short.txt
+*.md
+!README.md
+*.yml
